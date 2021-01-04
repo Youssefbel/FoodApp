@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.miniprojet">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/fast"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/fast"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.activities.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.activities.RegisterActivity"
+            android:screenOrientation="fullSensor"/>
+
+        <activity android:name="com.activities.UsersActivity"
+            android:screenOrientation="fullSensor" />
+
+        <activity android:name="com.activities.ForgotPassword"
+            android:screenOrientation="fullSensor" />
+
+        <activity android:name="com.activities.ConfirmPassword"
+            android:screenOrientation="fullSensor" />
+
+        <activity android:name="com.activities.RestoActivity"
+            android:screenOrientation="fullSensor" />
+        <activity android:name="com.activities.Pizza"
+            android:screenOrientation="fullSensor" />
+        <activity android:name="com.activities.Tacos"
+            android:screenOrientation="fullSensor" />
+        <activity android:name="com.activities.Italien"
+            android:screenOrientation="fullSensor" />
+        <activity android:name="com.activities.Asiatique"
+        android:screenOrientation="fullSensor" />
+        <activity android:name="com.activities.Marocain"
+        android:screenOrientation="fullSensor" />
+        <activity android:name="com.activities.Fast"
+        android:screenOrientation="fullSensor" />
+        <activity android:name="com.activities.Map"
+            android:screenOrientation="fullSensor" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+         <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDKTE8nsw9Cs8gHv1GiN2-4dqtLf9AU_Ls" />
+
+
+    </application>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+
+</manifest>
